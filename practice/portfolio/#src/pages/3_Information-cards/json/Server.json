@@ -1,0 +1,74 @@
+{
+	"balance": [
+		{ "title": "Сбербанк", "sum": 10000, "sum_plan": null },
+		{
+			"title": "Росбанк",
+			"sum": 2000,
+			"sum_plan": 5000
+		},
+		{
+			"title": "ВТБ",
+			"sum": 100000,
+			"sum_plan": 5000
+		},
+		{
+			"title": "Тинькоф",
+			"sum": 10000,
+			"sum_plan": 5000
+		},
+		{
+			"title": "Сельхозбанк",
+			"sum": 10000,
+			"sum_plan": 5000
+		},
+		{
+			"title": "Открытие",
+			"sum": 10000,
+			"sum_plan": 5000
+		}
+	],
+	"support": [
+		{
+			"title": "Сбербанк",
+			"progress": 25,
+			"burning_count": 3,
+			"inwork_count": 58,
+			"time_fakt": "02:30"
+		},
+		{
+			"title": "Росбанк",
+			"progress": 90,
+			"burning_count": 7,
+			"inwork_count": 58,
+			"time_fakt": "07:20"
+		},
+		{
+			"title": "Сельхозбанк",
+			"progress": 25,
+			"burning_count": 3,
+			"inwork_count": 58,
+			"time_fakt": "04:43"
+		},
+		{
+			"title": "Тинькоф",
+			"progress": 90,
+			"burning_count": 3,
+			"inwork_count": 58,
+			"time_fakt": "07:20"
+		},
+		{
+			"title": "Открытие",
+			"progress": 58,
+			"burning_count": 3,
+			"inwork_count": 8,
+			"time_fakt": "07:20"
+		},
+		{
+			"title": "ВТБ",
+			"progress": 58,
+			"burning_count": 3,
+			"inwork_count": 8,
+			"time_fakt": "07:20"
+		}
+	]
+}

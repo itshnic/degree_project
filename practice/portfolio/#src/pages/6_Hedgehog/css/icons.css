@@ -1,0 +1,65 @@
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  display: block;
+}
+
+._icon-heart-border:before {
+  content: "\e900";
+  color: #195557;
+}
+
+._icon-info-circle:before {
+  content: "\e901";
+}
+
+._icon-basket:before {
+  content: "\e902";
+}
+
+._icon-phone:before {
+  content: "\e903";
+}
+
+._icon-plus:before {
+  content: "\e904";
+}
+
+._icon-syringe-solid:before {
+  content: "\e905";
+}
+
+._icon-Logo:before {
+  content: "\e906";
+}
+
+._icon-triangular:before {
+  content: "\e907";
+}
+
+._icon-facebook:before {
+  content: "\e908";
+}
+
+._icon-instagram:before {
+  content: "\e909";
+}
+
+._icon-twitter:before {
+  content: "\e90a";
+}
+
+._icon-arrow:before {
+  content: "\e90b";
+}

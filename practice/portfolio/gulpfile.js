@@ -87,7 +87,7 @@ function html() {
 				console.error("ErrorSrcHtml!", err.message);
 			})
 			// .pipe(plumber())
-			.pipe(webpHtml()) // меняет теги img на picture для поддержания формата webp
+			.pipe(webpHtml())
 			.pipe(dest(path.build.html))
 			.pipe(browserSync.stream())
 	);
@@ -151,11 +151,13 @@ function styleCss() {
 
 // <JS сборка>====================
 function appJs() {
-	return src(`${path.build.devJs}/**/*.js`)
-		.pipe(concat("app.min.js"))
-		.pipe(uglify())
-		.pipe(dest(path.build.js))
-		.pipe(browserSync.stream());
+	return (
+		src(`${path.build.devJs}/**/*.js`)
+			.pipe(concat("app.min.js"))
+			.pipe(uglify())
+			.pipe(dest(path.build.js))
+			.pipe(browserSync.stream())
+	);
 }
 function libJs() {
 	return src(path.src.libJs)
